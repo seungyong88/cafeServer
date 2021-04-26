@@ -7,7 +7,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }))
 // parse application/json
 
-app.get('/', (req, res) => res.send('Hello Worlds!'));
+app.get('/', (req, res) => {
+  let test = 'hello world';
+  res.send(test);
+});
 
 app.post('/signin', function(req, res) {
   const { username, password } = req.body;
