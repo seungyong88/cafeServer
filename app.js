@@ -18,8 +18,8 @@ app.post('/signin', function(req, res) {
 
   console.log(username, password)
   // 클라이언트로부터 전송된 페이로드를 그대로 response한다.
-  let test = 'hello world';
-  res.send(test);
+  // let test = 'hello world';
+  res.send('hello world');
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
