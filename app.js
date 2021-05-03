@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }))
 app.get('/', (req, res) => {
   // let test = 'hello wo1rzzzld';
   // res.send(test);
-  res.send("asdsad")
+  res.send("<html>sdsadsad</html>")
 });
 
 app.post('/signin', function(req, res) {
