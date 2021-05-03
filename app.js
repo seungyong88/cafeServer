@@ -8,8 +8,9 @@ app.use(express.urlencoded({ extended: true }))
 // parse application/json
 
 app.get('/', (req, res) => {
-  let test = 'hello wo1rzzzld';
-  res.send(test);
+  // let test = 'hello wo1rzzzld';
+  // res.send(test);
+  res.send("asdsad")
 });
 
 app.post('/signin', function(req, res) {
